@@ -194,6 +194,8 @@ a:hover {
     -webkit-transform: translate(-50%, -50%);
     -webkit-transform--ms-transform: translate(-50%, -50%);
     -webkit-transform--ms-transform-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -201,10 +203,12 @@ a:hover {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
+    flex-direction: column;
     -webkit-flex-direction--ms-flex-direction: column;
     -webkit-flex-direction--ms-flex-direction-flex-direction: column;
     -webkit-box-align: center;
     -webkit-align-items: center;
+    align-items: center;
     -webkit-align-items--ms-flex-align: center;
     -webkit-align-items--ms-flex-align-align-items: center;
 }
