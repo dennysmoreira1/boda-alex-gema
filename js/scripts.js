@@ -175,11 +175,10 @@ $(document).ready(function () {
             type: 'fraction',
         },
 
-
         renderFraction: function (currentClass, totalClass) {
-            return `<span class="${0 + currentClass}" ></span>' +
-                ' / ' +
-                '<span class="${0 + totalClass}" ></span>`;
+            return `<span class="${0 + currentClass} "></span>' +
+                  ' / ' +
+                  '<span class="${0 + totalClass} "></span>`;
         }
     });
 
