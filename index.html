@@ -9,6 +9,7 @@
   <meta name="description" content="description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
   <link rel="shortcut icon" type="ico" href="img/icon.ico">
+  <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./libs.min.css">
   <link rel="stylesheet" href="./bootstrap-material-design.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
@@ -306,6 +307,8 @@
       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
   </section>
+
+
   <section class="venues" id="venues">
     <div class="container">
       <h2 class="s-title text--colored"> Lugar</h2>
@@ -387,7 +390,13 @@
   <script src="./js/bootstrap-material-design.js"></script>
   <script src="./js/countdown.js"></script>
   <script src="./js/scripts.js"></script>
-
+  <!-- Incluir jQuery (requerido para Slick) -->
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+  <!-- Incluir Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Incluir Slick JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/slick.min.js"></script>
   <script>
     window.addEventListener('load', function () {
       document.body.style.display = 'block';

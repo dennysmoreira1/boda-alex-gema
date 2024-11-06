@@ -120,15 +120,14 @@ $(document).ready(function () {
 
     }());
 
-    $('body').bootstrapMaterialDesignjs();
+    $('body').bootstrapMaterialDesign(); // Método correcto
 
     //Story slider
     $('.story__slider').slick({
-        infinite: true,
-        prevArrow: '<button type="button" class="slick-prev arrow-left--colored"></button>',
-        nextArrow: '<button type="button" class="slick-next arrow-right--colored"></button>'
+        infinite: true,  // Hace que el slider sea infinito
+        prevArrow: '<button type="button" class="slick-prev arrow-left--colored"></button>',  // Flecha izquierda
+        nextArrow: '<button type="button" class="slick-next arrow-right--colored"></button>'  // Flecha derecha
     });
-
     //Fancybox
     // $(".fancy").fancybox({
     //   'hideOnContentClick': true
@@ -183,16 +182,4 @@ $(document).ready(function () {
     });
 
     $('.swiper-slide-active').siblings('.swiper-slide').css('margin-right', '32px');
-
-
-    function init() {
-        ceremonyMap.panes.get('ground').getElement().style.filter = 'grayscale(100%)';
-
-        ceremonyMap.geoObjects
-            .add(myPlacemark);
-
-        //END 
-
-    }
-}());
-
+});
