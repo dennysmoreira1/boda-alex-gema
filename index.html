@@ -16,6 +16,7 @@
     integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./main.css">
+
   <style>
     body {
       display: none;
@@ -33,7 +34,7 @@
       </li>
       <li class="navigation__item mobile-navigation__item"><a class="mobile-navigation__link" href="#story">Nuestra
           Historia</a></li>
-      <li class="navigation__item mobile-navigation__item"><a class="mobile-navigation__link" href="#photo">Mas
+      <li class="navigation__item mobile-navigation__item"><a class="mobile-navigation__link" href="#photos">Mas
           Fotos</a>
       </li>
       <li class="navigation__item mobile-navigation__item"><a class="mobile-navigation__link" href="#venues">Lugar</a>
@@ -53,8 +54,7 @@
               Feliz</a></li>
           <li class="header__menu-item"><a class="header__menu-link" href="#story">Nuestra
               Historia</a></li>
-          <li class="header__menu-item"><a class="header__menu-link" href="#photos">Mas
-              photos</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#photos">Mas Fotos</a></li>
           <li class="header__menu-item"><a class="header__menu-link" href="#venues">Lugar</a>
           </li>
         </ul>
@@ -123,128 +123,45 @@
       </div>
     </div>
   </section>
+  </section>
   <section class="story" id="story">
     <div class="container">
-      <h2 class="s-title text--colored"> Nuestra Historia</h2>
-      <div class="story__slider slick-initialized slick-slider"><button type="button"
-          class="slick-prev arrow-left--colored slick-arrow"></button>
-        <div class="slick-list draggable">
-          <div class="slick-track" style="opacity: 1; width: 7315px; transform: translate3d(-1045px, 0px, 0px);">
-            <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1"
-              style="width: 1045px;">
-              <div>
-                <div class="story__slide" style="width: 100%; display: inline-block;">
-                  <div class="story__slider-image"><img class="img-responsive" src="img/histori1.jpg" alt="Photo"></div>
-                  <div class="story__slider-text">
-                    <div class="slider__head-text">
-                      <h3 class="couple__title">How he proposed</h3>
-                    </div>
-                    <p class="story__slider-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque
-                      laboriosam. Nihil doloremque sint dolorum officiis repellendus quam odit ut. Ea, veniam debitis
-                      blanditiis nulla optio ipsa impedit doloremque quaerat!.</p>
-                  </div>
-                </div>
-              </div>
+      <h2 class="s-title text--colored">Historia de Amor</h2>
+      <div class="story__slider ">
+        <div class="story__slide">
+          <div class="story__slider-image"><img class="story__slider-image img-responsive" src="img/0.jpg"
+              alt="Photo" /></div>
+          <div class="story__slider-text">
+            <div class="slider__head-text text--colored">
+              <h3 class="couple__title text--colored"> How We Met</h3>
             </div>
-            <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false"
-              style="width: 1045px;">
-              <div>
-                <div class="story__slide" style="width: 100%; display: inline-block;">
-                  <div class="story__slider-image"><img class="story__slider-image img-responsive" src="img/0.jpg"
-                      alt="Photo"></div>
-                  <div class="story__slider-text">
-                    <div class="slider__head-text text--colored">
-                      <h3 class="couple__title text--colored"> Como Empezo todo</h3>
-                    </div>
-                    <p class="story__slider-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
-                      officia. Dicta, voluptatibus impedit? Doloribus, iusto, optio sint consequuntur deleniti libero
-                      voluptate eos rem vitae voluptates harum facere quasi quo iste!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 1045px;">
-              <div>
-                <div class="story__slide" style="width: 100%; display: inline-block;">
-                  <div class="story__slider-image"><img class="img-responsive" src="img/histori3.jpg" alt="Photo"></div>
-                  <div class="story__slider-text">
-                    <div class="slider__head-text">
-                      <h3 class="couple__title">Our first Date</h3>
-                    </div>
-                    <p class="story__slider-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                      voluptatem, similique harum voluptatibus, cumque doloribus iure explicabo maiores ipsam labore
-                      impedit necessitatibus enim praesentium? Earum nihil veniam sapiente eligendi harum.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 1045px;">
-              <div>
-                <div class="story__slide" style="width: 100%; display: inline-block;">
-                  <div class="story__slider-image"><img class="img-responsive" src="img/alexgema3.jpg" alt="Photo">
-                  </div>
-                  <div class="story__slider-text">
-                    <div class="slider__head-text">
-                      <h3 class="couple__title">How he proposed</h3>
-                    </div>
-                    <p class="story__slider-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
-                      amet enim dolore dolor pariatur delectus. Tenetur quidem et ipsam laboriosam quia ipsum autem, vel
-                      veritatis magnam non, ducimus in ratione.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" tabindex="-1"
-              style="width: 1045px;">
-              <div>
-                <div class="story__slide" style="width: 100%; display: inline-block;">
-                  <div class="story__slider-image"><img class="story__slider-image img-responsive" src="img/0.jpg"
-                      alt="Photo"></div>
-                  <div class="story__slider-text">
-                    <div class="slider__head-text text--colored">
-                      <h3 class="couple__title text--colored"> How We Met</h3>
-                    </div>
-                    <p class="story__slider-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
-                      tempora. Voluptate natus nihil nisi quasi itaque sed, sapiente non soluta distinctio illum!
-                      Tenetur labore itaque vitae voluptatem minima quis alias!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1"
-              style="width: 1045px;">
-              <div>
-                <div class="story__slide" style="width: 100%; display: inline-block;">
-                  <div class="story__slider-image"><img class="img-responsive" src="img/2.jpg" alt="Photo"></div>
-                  <div class="story__slider-text">
-                    <div class="slider__head-text">
-                      <h3 class="couple__title">Our first Date</h3>
-                    </div>
-                    <p class="story__slider-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, id
-                      voluptatem provident unde modi numquam dolorem a nihil atque perspiciatis commodi quo facilis
-                      fugiat. Quis eum molestiae sint iste rerum!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1"
-              style="width: 1045px;">
-              <div>
-                <div class="story__slide" style="width: 100%; display: inline-block;">
-                  <div class="story__slider-image"><img class="img-responsive" src="img/2.jpg" alt="Photo"></div>
-                  <div class="story__slider-text">
-                    <div class="slider__head-text">
-                      <h3 class="couple__title">How he proposed</h3>
-                    </div>
-                    <p class="story__slider-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
-                      dolore est voluptatem dignissimos perspiciatis cum. Eligendi cumque similique iure, consequatur
-                      cum tempore, ut amet assumenda ipsam, incidunt perferendis consequuntur mollitia..</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <p class="story__slider-descr">How we met is an unlikely funny story! Three years ago he tweeted that he was
+              moving and had a bunch of horror DVD’s he needed to get rid of. At the time we didn’t follow each other,
+              so a mutual friend responded to his tweet and included me in on it.</p>
           </div>
-        </div><button type="button" class="slick-next arrow-right--colored slick-arrow"></button>
+        </div>
+        <div class="story__slide">
+          <div class="story__slider-image"><img class="img-responsive" src="img/-1.jpg" alt="Photo" /></div>
+          <div class="story__slider-text">
+            <div class="slider__head-text">
+              <h3 class="couple__title">Nuestra Primera Cita</h3>
+            </div>
+            <p class="story__slider-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptate
+              quia sequi incidunt iusto sapiente tempora eveniet optio? Repudiandae in voluptatem expedita qui earum
+              minus sed inventore officiis, quos voluptatibus.</p>
+          </div>
+        </div>
+        <div class="story__slide">
+          <div class="story__slider-image"><img class="img-responsive" src="img/2.jpg" alt="Photo" /></div>
+          <div class="story__slider-text">
+            <div class="slider__head-text">
+              <h3 class="couple__title">Como le Propuse Matrimonio</h3>
+            </div>
+            <p class="story__slider-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et magnam animi
+              maxime. Tempora, reprehenderit doloremque enim, quia atque delectus sit provident amet odio corrupti
+              voluptate ex adipisci. Maiores, corrupti repellendus.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -307,6 +224,13 @@
       <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
   </section>
+
+
+
+
+
+
+
 
 
   <section class="venues" id="venues">
@@ -390,13 +314,6 @@
   <script src="./js/bootstrap-material-design.js"></script>
   <script src="./js/countdown.js"></script>
   <script src="./js/scripts.js"></script>
-  <!-- Incluir jQuery (requerido para Slick) -->
-  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
-  <!-- Incluir Slick CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <!-- Incluir Slick JS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="./js/slick.min.js"></script>
   <script>
     window.addEventListener('load', function () {
       document.body.style.display = 'block';
