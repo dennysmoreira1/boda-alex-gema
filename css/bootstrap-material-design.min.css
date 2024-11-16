@@ -289,7 +289,8 @@ select {
 [type=submit],
 button,
 html [type=button] {
-    -webkit-appearance: button
+    -webkit-appearance: button;
+    appearance: button
 }
 
 [type=button]::-moz-focus-inner,
@@ -310,7 +311,8 @@ input[type=date],
 input[type=datetime-local],
 input[type=month],
 input[type=time] {
-    -webkit-appearance: listbox
+    -webkit-appearance: listbox;
+    appearance: listbox;
 }
 
 textarea {
@@ -348,7 +350,8 @@ progress {
 
 [type=search] {
     outline-offset: -2px;
-    -webkit-appearance: none
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 [type=search]::-webkit-search-cancel-button,
@@ -5382,7 +5385,8 @@ button.close {
     padding: 0;
     background-color: transparent;
     border: 0;
-    -webkit-appearance: none
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .modal,
@@ -16037,7 +16041,8 @@ select,
 select.custom-file-control,
 select.form-control {
     -moz-appearance: none;
-    -webkit-appearance: none
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 @media (min-width: 576px) {
